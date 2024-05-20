@@ -1,33 +1,71 @@
-/* Reset default browser styles */
-body, ul {
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    list-style-type: none; /* Remove default list styling */
+    background-color: #f7f7f7;
 }
 
-/* Style the navbar */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar Styles */
 .navbar-main {
-    background-color: #7b067b; /* Background color */
-    overflow: hidden;
+    background-color: #333;
+    padding: 10px 0;
 }
 
-/* Style the list items */
 .nav-item {
-    float: left;
-    
+    display: inline;
+    margin-right: 20px;
 }
 
-/* Style the links */
 .nav-link {
-    display: block;
-    color: white; /* Text color */
-    text-align: center;
-    padding: 14px 20px; /* Padding */
-    text-decoration: none; /* Remove underline */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-/* Change the link color on hover */
-.nav-link:hover {
-    background-color: #ffffff; /* Hover color */
-    color: black; /* Hover text color */
+/* Section Styles */
+section {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Contact Styles */
+#contact a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
 }
